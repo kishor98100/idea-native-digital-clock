@@ -1,0 +1,27 @@
+{
+  "name": "idea-native-digital-clock",
+  "version": "1.0.0",
+  "description": "Digital Clock for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kishor98100/idea-native-digital-clock.git"
+  },
+  "keywords": [
+    "react-native-digital-clock",
+    "digitl-clock",
+    "native-clock",
+    "clock",
+    "digital",
+    "text-clock"
+  ],
+  "author": "Kishor Mainali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kishor98100/idea-native-digital-clock/issues"
+  },
+  "homepage": "https://github.com/kishor98100/idea-native-digital-clock#readme"
+}
