@@ -29,7 +29,7 @@ class DigitalClock extends Component {
     const data = date.split(' ');
     const time = data[0].split(':');
     const trail =
-      data[1] == 'AM' ? 'पूर्वान्ह' : time[0] > 4 ? 'अपरान्ह' : 'मध्यान्ह';
+      data[1] == 'AM' ? 'पूर्वान्ह' : time[0] >= 4 ? 'अपरान्ह' : 'मध्यान्ह';
     return (
       getNepaliNumber(time[0]) +
       ':' +
