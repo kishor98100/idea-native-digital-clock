@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-
+import moment from 'moment';
+import PropTypes from 'prop-types';
+import ADTOBS from 'ad-bs-converter';
+import getNepaliNumber from 'get-nepali-number';
 class DigitalClock extends Component {
   constructor(props) {
     super(props);
